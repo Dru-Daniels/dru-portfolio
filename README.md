@@ -1,8 +1,6 @@
-# Lunch Academy #
+# Dru Daniels' Portfolio #
 
-**Author:** Dru Daniels
-
-Checkout the [Demo](https://lunch-academy-reviews.herokuapp.com/)
+[View Me Here](https://.com/)
 
 ## Description: 
 A modern web developer profile to showcase latest projects, ideology, and web dev skills.
