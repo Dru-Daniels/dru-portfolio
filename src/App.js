@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router } from "react-router-dom"
+import { hot } from "react-hot-loader/root"
 import './App.css';
 
-function App() {
+import Navbar from './layout/Navbar'
+import AboutPage from './AboutPage'
+
+const App = (props) => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Navbar />
+        <AboutPage />
+      </Router>
     </div>
   );
 }
 
-export default App;
+export default hot(App)
