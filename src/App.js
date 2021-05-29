@@ -3,14 +3,14 @@ import { hot } from "react-hot-loader/root"
 import './App.css';
 
 import Navbar from './layout/Navbar'
-import AboutPage from './AboutPage'
+import HeroBanner from './HeroBanner'
 
 const App = (props) => {
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <AboutPage />
+        <HeroBanner />
       </Router>
     </div>
   );

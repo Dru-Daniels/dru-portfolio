@@ -1,11 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import './navbar.scss'
 
 const Navbar = () => {
 
-  
   const mobileMenu = () => {
     const hamburger = document.getElementById("hamburger");
     const navMenu = document.getElementById("nav-menu");
@@ -14,32 +12,29 @@ const Navbar = () => {
     navMenu.classList.toggle("active");
   }
 
-
   return (
     <header className="header">
-              <nav className="navbar">
-            <Link to="/" className="nav-logo">
-              <video autoPlay>
-                <source src="/Logo.mp4" type="video/mp4"/>
-              </video>
-            </Link>
-            <ul className="nav-menu" id="nav-menu">
-                <li className="nav-item">
-                    <Link to="/about" className="nav-link">About</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="projects" className="nav-link">Projects</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="/contact" className="nav-link">Contact</Link>
-                </li>
-            </ul>
-            <div className="hamburger" id="hamburger" onClick={mobileMenu}>
-                <span className="bar"></span>
-                <span className="bar"></span>
-                <span className="bar"></span>
-            </div>
-        </nav>
+      <nav className="navbar">
+        <a href="/#" className="nav-link">
+          Dru Daniels
+        </a>
+        <ul className="nav-menu" id="nav-menu">
+            <li className="nav-item">
+                <a href="/#about" className="nav-link">About</a>
+            </li>
+            <li className="nav-item">
+                <a href="/#projects" className="nav-link">Projects</a>
+            </li>
+            <li className="nav-item">
+                <a href="/#contact" className="nav-link">Contact</a>
+            </li>
+        </ul>
+        <div className="hamburger" id="hamburger" onClick={mobileMenu}>
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+        </div>
+    </nav>
   </header>
   );
 };
