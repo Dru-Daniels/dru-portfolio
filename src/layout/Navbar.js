@@ -26,7 +26,7 @@ const Navbar = () => {
                 <a href="/#projects" className="nav-link">Projects</a>
             </li>
             <li className="nav-item">
-                <a href="/#contact" className="nav-link">Contact</a>
+                <a href="/#contact" className="nav-link contact">Contact</a>
             </li>
         </ul>
         <div className="hamburger" id="hamburger" onClick={mobileMenu}>

@@ -1,9 +1,9 @@
 import { BrowserRouter as Router } from "react-router-dom"
 import { hot } from "react-hot-loader/root"
-import './App.css';
+import './App.scss';
 
 import Navbar from './layout/Navbar'
-import HeroBanner from './HeroBanner'
+import HeroBanner from './components/HeroBanner'
 
 const App = (props) => {
   return (
