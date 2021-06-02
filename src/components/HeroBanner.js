@@ -4,7 +4,7 @@ import './heroBanner.scss'
 
 const HeroBanner = (props) => {
   return (
-    <>
+    <div className="hero-container">
       <section className="hero">
         <div className="content">
           <h1>Hi, I'm <span className="highlight">Dru</span>.</h1>
@@ -17,7 +17,7 @@ const HeroBanner = (props) => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
 
