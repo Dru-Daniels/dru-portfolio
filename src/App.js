@@ -5,6 +5,7 @@ import './App.scss';
 import Navbar from './layout/Navbar'
 import HeroBanner from './components/HeroBanner'
 import Feature from './components/Feature'
+import Skills from './components/Skills'
 
 const App = (props) => {
   return (
@@ -13,6 +14,7 @@ const App = (props) => {
         <Navbar />
         <HeroBanner />
         <Feature/>
+        <Skills/>
       </Router>
     </div>
   );
