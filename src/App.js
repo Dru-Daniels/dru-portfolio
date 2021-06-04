@@ -7,7 +7,8 @@ import HeroBanner from './components/HeroBanner'
 import Feature from './components/Feature'
 import Skill from './components/Skill'
 import Project from './components/Project'
-import SpeedDialTooltipOpen from './components/social-tray/social'
+import SpeedDialTooltipOpen from './components/social'
+import ScrollTopFab from './components/scroll'
 
 const App = (props) => {
   return (
@@ -19,6 +20,7 @@ const App = (props) => {
         <Skill/>
         <Project/>
         <SpeedDialTooltipOpen />
+        < ScrollTopFab/>
       </Router>
     </div>
   );

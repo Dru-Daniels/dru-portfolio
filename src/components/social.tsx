@@ -7,9 +7,8 @@ import EmailIcon from '@material-ui/icons/Email';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-
+import TwitterIcon from '@material-ui/icons/Twitter';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
