@@ -1,6 +1,6 @@
 # Dru Daniels' Portfolio #
 
-[View Me Here](https://.com/)
+[View Me Here](https://master.d34r8dl9wraxu0.amplifyapp.com/)
 
 ## Description: 
 A modern web developer profile to showcase latest projects, ideology, and web dev skills.
