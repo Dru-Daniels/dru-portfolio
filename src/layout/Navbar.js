@@ -26,7 +26,12 @@ const Navbar = () => {
                 <a href="/#projects" className="nav-link">Projects</a>
             </li>
             <li className="nav-item">
-                <a href="/#contact" className="nav-link contact">Contact</a>
+                <a 
+                  href="mailto:drudaniels@gmail.com?subject=Business%20Inquiry" 
+                  target="blank" 
+                  className="button nav-link contact">
+                    Contact
+                </a>
             </li>
         </ul>
         <div className="hamburger" id="hamburger" onClick={mobileMenu}>

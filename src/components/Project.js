@@ -29,7 +29,7 @@ const Project = (props) => {
   )
 
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="projects">
       
       <div className="portfolio-container transition3">
         <div className="portfolio-left">
