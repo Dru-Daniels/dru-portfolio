@@ -1,6 +1,5 @@
 .header{
-  background-color: transparent;
-  position: fixed;
+  background: linear-gradient(to right, #fff 52.9vw, #ffcfc1 50vw);
   top: 0;
   width: 100vw;
   z-index: 9999;
@@ -22,7 +21,7 @@
 .bar {
   display: block;
   width: 25px;
-  height: 4px;
+  height: 3px;
   margin: 5px auto;
   border-radius: 50px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -91,22 +90,20 @@
 
 @media only screen and (max-width: 768px) {
   .header {
-    background-color: #fff;
+    background: linear-gradient(to right, #ff9f87, #ff9278);
+    position: fixed;
   }
+
   .nav-menu {
       position: fixed;
       left: -100%;
-      top: 2.5rem;
+      top: 2.8em;
       flex-direction: column;
       align-items: center;
       width: 100%;
-      padding: 0;
-      background-color: #fff;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
+      padding: 0 2rem;
+      background: #333333;
       transition: 0.3s;
-      box-shadow:
-          0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
   .nav-link, 
@@ -114,7 +111,9 @@
     border: none;
     color: var(--font-color);
     transition: 0.5s;
-    color: #ff9278;    
+    color: #ff9f87;    
+    padding: 0;
+    font-weight: 400;
   }
   
   .nav-link:hover, 
@@ -124,7 +123,8 @@
   .contact:focus, 
   .contact:active {
     background-color: transparent;
-    color: #ffcfc1;
+    color: #ffb6a3;
+    text-shadow: 1px 1px 2px #ff0000;
   }
 
   .nav-menu.active {
@@ -135,8 +135,12 @@
       margin: 1rem 0;
   }
 
+  .nav-name {
+    color: #000;
+  }
+
   .bar {
-    background-color: #ff9278;
+    background-color: #000;
   }
 
   .hamburger {
@@ -149,11 +153,11 @@
   }
 
   .hamburger.active .bar:nth-child(1) {
-      transform: translateY(9px) rotate(45deg);
+      transform: translateY(8px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-9px) rotate(-45deg);
+      transform: translateY(-8px) rotate(-45deg);
   }
 
 }
