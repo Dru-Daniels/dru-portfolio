@@ -32,7 +32,7 @@ const Project = (props) => {
     <section className="portfolio">
       
       <div className="portfolio-container transition3">
-        <div class="portfolio-left">
+        <div className="portfolio-left">
           <div className="inner">
             <p className="featured-title">KariOmi</p>
             <p className="featured-description">
@@ -51,7 +51,7 @@ const Project = (props) => {
       </div>
 
       <div className="portfolio-container transition3">
-        <div class="portfolio-left">
+        <div className="portfolio-left">
           <div className="inner">
             <p className="featured-title">Ainstein AI</p>
             <p className="featured-description">
@@ -69,7 +69,7 @@ const Project = (props) => {
       </div>
 
       <div className="portfolio-container transition3">
-        <div class="portfolio-left">
+        <div className="portfolio-left">
           <div className="inner">
             <p className="featured-title">Soko Wars</p>
             <p className="featured-description">
@@ -87,7 +87,7 @@ const Project = (props) => {
       </div>
 
       <div className="portfolio-container transition3">
-        <div class="portfolio-left">
+        <div className="portfolio-left">
           <div className="inner">
             <p className="featured-title">Redwood Mediation</p>
             <p className="featured-description">

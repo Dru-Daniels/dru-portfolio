@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <header className="header">
       <nav className="navbar">
-        <a href="/#" className="nav-link">
+        <a href="/#" className="nav-link nav-name">
           Dru Daniels
         </a>
         <ul className="nav-menu" id="nav-menu">
