@@ -7,7 +7,7 @@ import HeroBanner from './components/HeroBanner'
 import Feature from './components/Feature'
 import Skill from './components/Skill'
 import Project from './components/Project'
-import Contact from './components/Contact'
+import SpeedDialTooltipOpen from './components/social-tray/social'
 
 const App = (props) => {
   return (
@@ -18,7 +18,7 @@ const App = (props) => {
         <Feature/>
         <Skill/>
         <Project/>
-        <Contact/>
+        <SpeedDialTooltipOpen />
       </Router>
     </div>
   );
