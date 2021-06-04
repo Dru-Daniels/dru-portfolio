@@ -1,4 +1,3 @@
-import React from 'react'
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Fab from '@material-ui/core/Fab';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';

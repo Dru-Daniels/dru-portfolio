@@ -4,7 +4,7 @@ import './feature.scss'
 const Feature = (props) => {
 
   return (
-    <section className="feature">
+    <section className="feature" id="about">
       <div className="left">
         <div className="inner transition2">
           <p className="subtitle">About Dru</p>
