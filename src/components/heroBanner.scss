@@ -31,6 +31,10 @@ h1 {
   transform: translateY(-800px);
 }
 
+#GroupBubblesRight {
+  display: none;
+}
+
 .hero-container {
   width: 100vw;
   min-height: 40em;
@@ -106,7 +110,6 @@ h1 {
   animation-delay: 8s;
 }  
 
-
 .hero-contact {
   padding: 0.5rem 2rem;
   border-radius: 50px;
@@ -116,6 +119,7 @@ h1 {
   background-color: #ff9278;
   border: 3px solid #ff9278;
   transition: 0.5s;
+  z-index: 10003;
 }
 
 .hero-contact:hover, 
@@ -172,6 +176,11 @@ h1 {
     transform: translate(-9em, 30em);
   }
 
+  .hello-word span {
+    font-size: .6em;
+    top: 35%;
+    left: 3em;
+  }
   
 }
 
@@ -199,13 +208,11 @@ h1 {
 
   .hello-word span {
     font-size: .6em;
-    top: 43%;
-    left: 3em;
+    top: 30%;
+    left: 9em;
   }
   
 }
-
-
 
 @media only screen and (min-width: 768px) {
 
@@ -251,23 +258,26 @@ h1 {
     transform: translate(0, 0);
   }
 
+  #GroupBubblesRight {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
   
   h1 {
-    font-size: 6em;
-    top: 10%;
-    left: 3%;
+    font-size: 4.75em;
+    top: 15%;
+    left: 8%;
   }
 
   .hello-word span {
-    top: 24%;
+    top: 28%;
   }
 
   .hero {
-    padding: 6em;
-    padding-left: 13em;
+    padding: 0em;
+    padding-left: 15em;
   }
 
   #HeroImg {
@@ -275,38 +285,10 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 1025px) {
-  
-  h1 {
-    font-size: 6em;
-    top: 10%;
-    left: 3%;
-  }
-
-  .hello-word span {
-    display: flex;
-    flex-direction: column;
-    top: 24%;
-  }
-
-  .hero {
-    padding: 6em;
-    padding-left: 13em;
-  }
-
-  #HeroImg {
-    margin-top: -46em;
-  }
-
-  #GroupCone {
-    display: block;
-    transform: translate(0, -150px);
-  }
-}
-
 @media only screen and (min-width: 1300px) {
   
   h1 {
+    font-size: 5.5em;
     top: 15%;
     left: 10%;
   }
@@ -317,7 +299,7 @@ h1 {
 
   .hero {
     margin-top: 13em;
-    padding-left: 19em;
+    padding-left: 20em;
   }
 
 }
@@ -325,6 +307,7 @@ h1 {
 @media only screen and (min-width: 1500px) {
   
   h1 {
+    font-size: 6em;
     top: 24%;
     left: 11%;
   }
