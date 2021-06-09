@@ -1,0 +1,45 @@
+.skills {
+  background: var(--clr-or);
+}
+
+.skills-container ul li {
+  margin: 0 auto 1em auto;
+  background: white;
+  border-radius: 1em;
+  overflow: hidden;
+  max-width: 350px;
+  background-size: 105% 105%;
+  background-position: center;
+  padding: 3em 1em;
+  
+  &:first-child {
+    background-image: url("../images/faceBg.png");
+
+  }
+
+  &:nth-child(2) {
+    background-image: url("../images/bookBg.png");
+  }
+
+  &:nth-child(3) {
+    background-image: url("../images/barGraphBg.png");
+  }
+}
+
+.icon-container {
+  height: 100px;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.icon-img {
+  width: 100px;
+  height: auto;
+}
+
+.skill-title {
+  font-family: 'myriad-pro', sans-serif;
+  font-weight: bold;
+  color: #fff;
+}

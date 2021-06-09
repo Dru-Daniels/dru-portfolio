@@ -9,21 +9,21 @@ const Skill = (props) => {
         <ul>
           <li className="transition2">
             <div className="icon-container one">
-              <img src="/face1.png" alt="Front End Icon"/>
+              <img className="icon-img" src="/face1.png" alt="Front End Icon"/>
             </div>
-            <p classNam="skill-title">Front End Development</p>
+            <p className="skill-title">Front End Development</p>
           </li>
           <li className="transition2">
             <div className="icon-container three">
-              <img src="/fullstack.png" alt="Front End Icon"/>
+              <img className="icon-img" src="/fullstack.png" alt="Front End Icon"/>
             </div>
-            <p classNam="skill-title">Full Stack & Soft Skills</p>
+            <p className="skill-title">Full Stack & Soft Skills</p>
           </li>
           <li className="transition2">
             <div className="icon-container two">
-              <img src="/barGraph.png" alt="Back End Icon"/>
+              <img className="icon-img" src="/barGraph.png" alt="Back End Icon"/>
             </div>
-            <p classNam="skill-title">Back End Development</p>
+            <p className="skill-title">Back End Development</p>
           </li>
         </ul>
       </div>
