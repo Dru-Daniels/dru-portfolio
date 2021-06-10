@@ -5,6 +5,11 @@ const Skill = (props) => {
 
   return (
     <section className="skills">
+      <h1 className="skills-title">Making it right.</h1>
+      <h4 className="skills-title-sub">
+        I design, develop, and deliver experiences that are technically
+        impressive and easy to use.
+      </h4>
       <div className="skills-container">
         <ul>
           <li className="transition2">

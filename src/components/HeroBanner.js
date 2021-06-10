@@ -10,13 +10,13 @@ const HeroBanner = (props) => {
       <HeroImg/>
       <section className="hero">
           <div className="hero-content">
-            <h1>Hi, I'm <span className="highlight">Dru</span>.</h1>
+            <h1 className="hero-title">Hi, I'm <span className="highlight">Dru</span>.</h1>
             <div className="hello-word">
-              <span><h1>Web Dev</h1></span>
-              <span><h1>Front End</h1></span>
-              <span><h1>Back End</h1></span>
-              <span><h1>UX/UI</h1></span>
-              <span><h1>Full Stack</h1></span>
+              <span><h1 className="hero-title">Web Dev</h1></span>
+              <span><h1 className="hero-title">Front End</h1></span>
+              <span><h1 className="hero-title">Back End</h1></span>
+              <span><h1 className="hero-title">UX/UI</h1></span>
+              <span><h1 className="hero-title">Full Stack</h1></span>
             </div>
           </div>
         <a 
