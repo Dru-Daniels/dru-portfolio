@@ -1,0 +1,67 @@
+.popup-content {
+  width: 90vw;
+  max-width: 600px;
+  border-radius: 1em;
+}
+
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: var(--clr-lgr);
+  border-radius: 18px;
+  color: #888;
+  border: 1px solid #cfcece;
+}
+
+.primary-btn {
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5263d1;
+  background-color: transparent;
+  border: 0px solid #fff;
+  transition: 0.5s;
+  max-width: 190px;
+}
+
+.primary-btn:hover, 
+.primary-btn:focus, 
+.primary-btn:active {
+  cursor: pointer;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  transition-delay: 50ms;
+  color: #5263d1;
+  font-weight: bold;
+  background-color: transparent;
+}

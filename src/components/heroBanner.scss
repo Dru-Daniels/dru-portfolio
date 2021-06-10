@@ -2,6 +2,7 @@ h1 {
   font-family: 'myriad-pro', sans-serif;
   font-size: 3.5em;
   margin: 1em;
+  text-align:left;
 }
 
 #HeroImg {
@@ -120,6 +121,7 @@ h1 {
   border: 3px solid #ff9278;
   transition: 0.5s;
   z-index: 10003;
+  max-width: 200px;
 }
 
 .hero-contact:hover, 
