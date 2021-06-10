@@ -8,16 +8,18 @@ import Project from './components/Project'
 import SpeedDialTooltipOpen from './components/social'
 import ScrollTopFab from './components/scroll'
 
+import projectData from './constants/projectData'
+
 const App = (props) => {
   return (
     <div className="App">
         <Navbar />
         <HeroBanner />
-        <Feature/>
-        <Skill/>
-        <Project/>
+        <Feature />
+        <Skill />
+        <Project projectData={projectData} />
         <SpeedDialTooltipOpen />
-        < ScrollTopFab/>
+        < ScrollTopFab />
     </div>
   );
 }

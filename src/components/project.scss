@@ -1,3 +1,10 @@
+
+.portfolio {
+  background: #f7f7f7;
+}
+
 .portfolio-container img {
-  max-width: 500px;
+  border-radius: 1em;
+  margin: 1em auto 2em auto;
+  max-width: calc(100vw - 4em);
 }
