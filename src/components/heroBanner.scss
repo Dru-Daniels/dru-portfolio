@@ -1,4 +1,4 @@
-h1 {
+.hero-title {
   font-family: 'myriad-pro', sans-serif;
   font-size: 3.5em;
   margin: 1em;
@@ -136,7 +136,7 @@ h1 {
 }
 
 @media only screen and (min-width: 380px) {
-  h1 {
+  .hero-title {
     padding-bottom: 2em;
     font-size: 4.5em;
   }
@@ -188,7 +188,7 @@ h1 {
 
 @media only screen and (min-width: 600px) {
 
-  h1 {
+  .hero-title {
     padding-bottom: 3em;
   }
 
@@ -218,7 +218,7 @@ h1 {
 
 @media only screen and (min-width: 768px) {
 
-  h1 {
+  .hero-title {
     font-size: 3.75em;
     letter-spacing: -1px;
     position: absolute;
@@ -267,7 +267,7 @@ h1 {
 
 @media only screen and (min-width: 1025px) {
   
-  h1 {
+  .hero-title {
     font-size: 4.75em;
     top: 15%;
     left: 8%;
@@ -289,7 +289,7 @@ h1 {
 
 @media only screen and (min-width: 1300px) {
   
-  h1 {
+  .hero-title {
     font-size: 5.5em;
     top: 15%;
     left: 10%;
@@ -308,7 +308,7 @@ h1 {
 
 @media only screen and (min-width: 1500px) {
   
-  h1 {
+  .hero-title {
     font-size: 6em;
     top: 24%;
     left: 11%;
@@ -334,7 +334,7 @@ h1 {
 }
 
 @media only screen and (min-width: 2000px) {
-  h1 {
+  .hero-title {
     font-size: 8em;
     top: 16%;
   }

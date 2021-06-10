@@ -1,20 +1,49 @@
 .skills {
-  background: var(--clr-or);
+  background-color: hsl(333, 29%, 93%);
+}
+
+.skills-title {
+  font-family: 'myriad-pro', sans-serif;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #0a0e20;
+}
+
+.skills-title-sub {
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: #787a97;
+}
+
+.skills-container ul {
+  display: flex;
+  display: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 3em auto;
 }
 
 .skills-container ul li {
-  margin: 0 auto 1em auto;
+  height: 250px;
   background: white;
   border-radius: 1em;
   overflow: hidden;
-  max-width: 350px;
-  background-size: 105% 105%;
-  background-position: center;
-  padding: 3em 1em;
-  
+  min-width: 230px;
+  max-width: 300px;
+  background-size: 100% 75%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 3em 0 0 0;
+  border-radius: 1em;
+  margin: 1em;
+  box-shadow: 0px 20px 10px hsla(333, 30%, 76%, 0.918);
+  transition: transform 0.6s;
+
+    
   &:first-child {
     background-image: url("../images/faceBg.png");
-
   }
 
   &:nth-child(2) {
@@ -24,22 +53,47 @@
   &:nth-child(3) {
     background-image: url("../images/barGraphBg.png");
   }
+
+  &:hover {
+    -webkit-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+  }
 }
 
 .icon-container {
   height: 100px;
   display: grid;
   place-content: center;
-  margin: 0 auto;
+  margin: 0 auto 1em auto;
 }
 
 .icon-img {
-  width: 100px;
+  width: 120px;
   height: auto;
 }
 
 .skill-title {
+  padding: 2.75em 0 0 0;
   font-family: 'myriad-pro', sans-serif;
   font-weight: bold;
-  color: #fff;
+  color: #000;
+}
+
+@media only screen and (min-width: 600px) {
+  .skills-title {
+    font-size: 2.75rem;
+  }
+  
+  .skills-title-sub {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+
+  .skills {
+    margin-top: -9em;
+    padding-top: 8em;
+  }
+
 }
