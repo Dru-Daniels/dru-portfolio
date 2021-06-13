@@ -1,11 +1,49 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './feature.scss'
 
 import SwapHorizIcon from '@material-ui/icons/SwapHoriz';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
+import { gsap } from "gsap/dist/gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
-const Feature = (props) => {
+gsap.registerPlugin(ScrollTrigger);
+
+const Feature = (props) => {  
+  
+  useEffect (()=> {
+    gsap.from(".transition2", {
+      scrollTrigger: {
+        trigger:".transition2",
+        start: "top bottom"
+      },
+      y: 50,
+      opacity: 0,
+      duration: 1.3,
+      stagger: .6
+    })
+    gsap.from(".transition22", {
+      scrollTrigger: {
+        trigger:".transition22",
+        start: "top bottom"
+      },
+      y: 50,
+      opacity: 0,
+      duration: 2.3,
+      stagger: .6,
+    })
+    
+    gsap.from(".transition3", {
+      scrollTrigger: {
+        trigger:".transition3",
+        start: "top bottom"
+      },
+      y: 50,
+      opacity: 0,
+      duration: 1.3,
+      stagger: .7
+    })
+  }, [])
 
   return (
     <section className="feature" id="about">
