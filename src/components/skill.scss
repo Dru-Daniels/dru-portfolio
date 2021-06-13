@@ -6,15 +6,20 @@
   font-family: 'myriad-pro', sans-serif;
   margin-bottom: .5rem;
   font-size: 2rem;
-  font-weight: 200;
-  color: #0a0e20;
+  font-weight: bold;
+  color: var(--clr-blk);
+}
+
+.title-accent {
+  font-size: 1em;
+  color: var(--clr-pp);
 }
 
 .skills-title-sub {
   font-weight: 400;
   font-size: 1.15rem;
   color: #787a97;
-}
+  font-family: 'Poppins', sans-serif;}
 
 .skills-container ul {
   display: flex;
