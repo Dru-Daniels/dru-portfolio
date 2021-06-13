@@ -5,8 +5,10 @@ import HeroBanner from './components/HeroBanner'
 import Feature from './components/Feature'
 import Skill from './components/Skill'
 import Project from './components/Project'
+import CallToAction from './components/CallToAction'
 import SpeedDialTooltipOpen from './components/social'
 import ScrollTopFab from './components/scroll'
+import Footer from './layout/Footer'
 
 import projectData from './constants/projectData'
 
@@ -18,8 +20,10 @@ const App = (props) => {
         <Feature />
         <Skill />
         <Project projectData={projectData} />
+        <CallToAction />
         <SpeedDialTooltipOpen />
-        < ScrollTopFab />
+        <ScrollTopFab />
+        <Footer />
     </div>
   );
 }
