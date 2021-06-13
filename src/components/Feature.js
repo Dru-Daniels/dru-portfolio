@@ -13,7 +13,7 @@ const Feature = (props) => {
         <div className="inner transition2">
           <p className="subtitle">About Dru</p>
           <a href="https://youtu.be/GPFTQ6Od1MM?t=2019" className="featured-title" target="blank">Opera <SwapHorizIcon/> Techie</a>
-          <p className="featured-desc">Opera singer turned techie, I love creative problem solving--whether it be onstage or online. I’m currently seeking a full stack or front end position with a company that values mentorship, best practices, keeping up with the latest tech, diversity, and having a positive impact. Feel free to reach out!</p>
+          <p className="featured-desc">Opera singer turned techie, I love creative problem solving--whether it be onstage or online. I seek out working with people that value mentorship, best practices, keeping up with the latest tech, diversity, and having a positive impact. Feel free to reach out!</p>
           <a 
             className="primary-btn" 
             target="_blank" 
