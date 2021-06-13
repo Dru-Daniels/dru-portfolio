@@ -17,6 +17,7 @@ const Project = ({projectData}) => {
 
   return (
     <section className="portfolio" id="projects">
+      <h1 className="title">Works<span className="title title-accent">.</span></h1>
       {ProjectList}
     </section>
   )

@@ -14,16 +14,14 @@ const ProjectTile = ({ project }) => {
         <div className="portfolio-left">
           <div className="inner">
             <p className="subtitle">{subtitle}</p>
-            <p className="featured-title">
-              <a target="_blank" rel="noopener noreferrer" href={link}>
-              {title}
-              </a>
-            </p>
-            <p className="featured-description">
+            <a className="featured-title" target="_blank" rel="noopener noreferrer" href={link}>
+            {title}
+            </a>
+            <p className="featured-desc">
             {desc[0]}
             </p>
             <Popup 
-              trigger={<button className="primary-btn">Learn More</button>} 
+              trigger={<button className="primary-btn trg-btn">Learn More<ChevronRightIcon /></button>} 
               position="right center" 
               modal 
               nested
@@ -33,7 +31,7 @@ const ProjectTile = ({ project }) => {
                   <button className="close" onClick={close}>
                     &times;
                   </button>
-                  <div className="header">{title}</div>
+                  <div className="modal-header subtitle">{title}</div>
                   <div className="content">
                     <p>{desc[0]}</p>                  
                     <p>{desc[1]}</p>                  

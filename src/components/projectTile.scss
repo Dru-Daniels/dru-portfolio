@@ -9,7 +9,7 @@
   font-size: 12px;
   padding: 1em;
 }
-.modal > .header {
+.modal > .modal-header {
   width: 100%;
   border-bottom: 1px solid gray;
   font-size: 18px;
@@ -66,4 +66,8 @@
   color: #5263d1;
   font-weight: bold;
   background-color: transparent;
+}
+
+.trg-btn {
+  align-items: end;
 }

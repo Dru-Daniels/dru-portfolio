@@ -116,12 +116,12 @@
   border-radius: 50px;
   font-size: 1.25em;
   display: flex;
+  align-items: center;
   color: #fff;
   background-color: #ff9278;
   border: 3px solid #ff9278;
   transition: 0.5s;
   z-index: 10003;
-  max-width: 200px;
 }
 
 .hero-contact:hover, 
@@ -295,6 +295,12 @@
     left: 10%;
   }
 
+  .hero-container {
+    height: 45em;
+    padding-bottom: 4em;
+  }
+  
+
   .hello-word span {
     top: 30%;
   }
@@ -303,6 +309,10 @@
     margin-top: 13em;
     padding-left: 20em;
   }
+
+  #HeroImg {
+    margin-top: -46em;
+}
 
 }
 
@@ -315,7 +325,7 @@
   }
 
   .hero-container {
-    height: 55em;
+    height: 60em;
   }
   
   .hello-word span {

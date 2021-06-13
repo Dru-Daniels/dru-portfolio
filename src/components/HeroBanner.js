@@ -19,11 +19,7 @@ const HeroBanner = (props) => {
               <span><h1 className="hero-title">Full Stack</h1></span>
             </div>
           </div>
-        <a 
-          href="mailto:drudaniels@gmail.com?subject=Business%20Inquiry" 
-          target="blank" 
-          className="button hero-contact"
-        >
+        <a href="/#about"className="button hero-contact">
           Learn More <ChevronRightIcon />
         </a>
       </section>
