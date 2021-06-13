@@ -1,14 +1,14 @@
 # Dru Daniels' Portfolio #
 
-[View Me Here](https://master.d34r8dl9wraxu0.amplifyapp.com/)
+[View Me Here](https://dru-daniels.com/)
 
 ## Description: 
 A modern web developer profile to showcase latest projects, ideology, and web dev skills.
 
 ## Tech:
-- Reactjs frontend framework
-- Netflify Hosting
-- Foundation, CSS/SCSS, Flexbox styling
+- Reactjs frontend
+- AWS Amplife hosting
+- CSS/SCSS, Material UI
 
 ## Available Scripts
 
