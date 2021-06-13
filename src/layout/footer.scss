@@ -1,0 +1,41 @@
+.footer, .portfolio-container:after {
+  margin-top: -2em;
+  height: 100px; 
+  padding: 3em;
+}
+
+.footer {
+  background-color: #ff967c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-farewell {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  text-align: center;
+
+  svg {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) { 
+
+  .footer {
+    background-color: #ffcfc1;
+    align-items: flex-end;
+    padding: .5em;
+  }
+
+  .footer-farewell svg {
+    display: unset;
+  }
+}
+
+

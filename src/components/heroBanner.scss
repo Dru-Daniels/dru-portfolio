@@ -122,6 +122,7 @@
   border: 3px solid #ff9278;
   transition: 0.5s;
   z-index: 10003;
+  max-width: 210px;
 }
 
 .hero-contact:hover, 
@@ -163,7 +164,7 @@
 
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 510px) {
 
   #HeroImg {
     width: 110vw;
@@ -296,8 +297,8 @@
   }
 
   .hero-container {
-    height: 45em;
-    padding-bottom: 4em;
+    height: 51em;
+    padding-bottom: 5em;
   }
   
 
@@ -343,10 +344,27 @@
 
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 1850px) {
   .hero-title {
     font-size: 8em;
     top: 16%;
+  }
+
+  .hello-word span {
+    top: 29%;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  .hero-title {
+      font-size: 8em;
+      top: 16%;
+      left: 18%;
+  }
+
+  .hero-contact {
+    margin-left: 20%;
+    margin-top: -7%;
   }
 
   .hello-word span {
