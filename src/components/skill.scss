@@ -58,11 +58,11 @@
   &:nth-child(3) {
     background-image: url("../images/barGraphBg.png");
   }
+}
 
-  &:hover {
-    -webkit-transform: translate(0px, -10px);
-    transform: translate(0px, -10px);
-  }
+.transition22:hover {
+  -webkit-transform: translate(0px, -10px) !important;
+  transform: translate(0px, -10px) !important;
 }
 
 .icon-container {

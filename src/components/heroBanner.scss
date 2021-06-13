@@ -134,9 +134,28 @@
   color: #ff9278;
   font-weight: bold;
   background-color: transparent;
+  
+  .learn-btn-icon {
+    animation: arrowAnim .5s ease-in 1 forwards;
+  }
+
+}
+
+@keyframes arrowAnim {
+  
+  from {
+    transform: rotate(0deg);
+    z-index: 5;
+  }
+
+  to {
+    transform: rotate(90deg);
+
+  }
 }
 
 @media only screen and (min-width: 380px) {
+  
   .hero-title {
     padding-bottom: 2em;
     font-size: 4.5em;
