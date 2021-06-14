@@ -8,7 +8,9 @@ A modern web developer profile to showcase latest projects, ideology, and web de
 ## Tech:
 - Reactjs frontend
 - AWS Amplife hosting
-- CSS/SCSS, Material UI
+- GSAP Scoll Trigger
+- CSS/SCSS
+- Material UI
 
 ## Available Scripts
 
