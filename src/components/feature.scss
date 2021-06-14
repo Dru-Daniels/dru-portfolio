@@ -47,6 +47,21 @@ section {
   outline: none;
 }
 
+.feature-icon {
+  color: var(--clr-pp);
+  animation: flip-icon 4s linear !important;
+  transition: transform 1s ease-in-out !important;
+}
+
+.feature-icon:hover  {
+  transform: rotateY(180deg) !important;
+}
+
+@keyframes flip-icon {
+  0% {transform: rotateY(360deg);}
+  100% {transform: rotateY(0deg);}
+}
+
 .featured-desc {
   color: var(--txt-clr);
   margin-bottom: 2em;
