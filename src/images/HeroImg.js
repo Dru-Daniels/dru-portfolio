@@ -4644,43 +4644,6 @@ function SvgComponent(props) {
               fill="url(#prefix__L)"
             />
           </g>
-          <g data-name="Learn More Btn" id="LearnMoreBtn">
-            <path
-              data-name="Path 1062"
-              d="M724.8 751.34a46.506 46.506 0 01-46.492 46.5H387.29a46.5 46.5 0 01-46.5-46.5 46.51 46.51 0 0146.5-46.51h291a46.516 46.516 0 0146.51 46.492z"
-              fill="#ff9277"
-            />
-            <text
-              data-name="Learn More"
-              transform="translate(391.04 764.01)"
-              fill="#fff"
-              fontSize={36}
-              fontFamily="MyriadPro-Bold, Myriad Pro"
-              fontWeight={700}
-            >
-              <tspan x={0} y={0} letterSpacing="-.01em">
-                {"L"}
-              </tspan>
-              <tspan y={0}>{"earn Mo"}</tspan>
-              <tspan y={0} letterSpacing="-.01em">
-                {"r"}
-              </tspan>
-              <tspan y={0}>{"e"}</tspan>
-            </text>
-            <path
-              data-name="Line 1"
-              fill="none"
-              stroke="#fff"
-              strokeMiterlimit={10}
-              strokeWidth={3}
-              d="M596.11 752.58h65.99"
-            />
-            <path
-              data-name="Path 1063"
-              d="M660.1 752.08v-10.3l8.93 5.15 8.92 5.15-8.92 5.15-8.93 5.15z"
-              fill="#fff"
-            />
-          </g>
         </g>
       </g>
     </svg>

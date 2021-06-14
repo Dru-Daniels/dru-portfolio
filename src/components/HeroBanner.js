@@ -46,7 +46,7 @@ const HeroBanner = (props) => {
   return (
     <div className="hero-container">
       <HeroImg className="hero-design"/>
-      <section className="hero">
+      <section className="hero-btn">
           <div className="hero-content">
             <h1 className="hero-title">Hi, I'm <span className="highlight">Dru</span>.</h1>
             <div className="hello-word">
