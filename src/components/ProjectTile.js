@@ -6,9 +6,10 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 import './projectTile.scss'
 
-const ProjectTile = ({ project }) => {
+const ProjectTile = ({ project, handleClickAway }) => {
 
   const {subtitle, link, title, imgSrc, altTxt, tech, desc} = project
+
   return (
     <div className="portfolio-container transition3">
         <div className="portfolio-left">
@@ -20,11 +21,13 @@ const ProjectTile = ({ project }) => {
             <p className="featured-desc">
             {desc[0]}
             </p>
+
             <Popup 
-              trigger={<button className="primary-btn trg-btn">Learn More<ChevronRightIcon /></button>} 
+              trigger={<button className="primary-btn trg-btn" >Learn More<ChevronRightIcon /></button>} 
               position="right center" 
               modal 
               nested
+              onOpen={handleClickAway}
             >
               {(close) => (
                 <div className="modal">
@@ -46,6 +49,7 @@ const ProjectTile = ({ project }) => {
               </div>
             )}
           </Popup>
+
           </div>
           </div>
           <img src={imgSrc} alt={altTxt}/>

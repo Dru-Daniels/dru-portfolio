@@ -12,14 +12,27 @@ import Footer from './layout/Footer'
 
 import projectData from './constants/projectData'
 
+const mobileMenu = () => {
+  const hamburger = document.getElementById("hamburger");
+  const navMenu = document.getElementById("nav-menu");
+
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+}
+
+const handleClickAway = () => {
+  const navMenu1 = document.getElementById("nav-menu");
+  navMenu1.classList.remove("active");
+};
+
 const App = (props) => {
   return (
     <div className="App">
-        <Navbar />
+        <Navbar mobileMenu={mobileMenu} handleClickAway={handleClickAway} />
         <HeroBanner />
         <Feature />
         <Skill />
-        <Project projectData={projectData} />
+        <Project projectData={projectData} handleClickAway={handleClickAway}/>
         <CallToAction />
         <SpeedDialTooltipOpen />
         <ScrollTopFab />

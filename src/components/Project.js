@@ -4,13 +4,14 @@ import ProjectTile from './ProjectTile'
 
 import './project.scss'
 
-const Project = ({projectData}) => {
+const Project = ({projectData, handleClickAway}) => {
   
   const ProjectList = projectData.map(project => {
     return (
       <ProjectTile
         key={project.id_str} 
         project={project} 
+        handleClickAway={handleClickAway}
       />
       )
     })
