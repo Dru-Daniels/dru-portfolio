@@ -95,7 +95,7 @@
   align-items: center;
   color: #fff;
   background-color: #ff9278;
-  border: 3px solid #ff9278;
+  border: 3px solid transparent;
   transition: 1.5s;
   z-index: 10003;
   max-width: 210px;
@@ -108,11 +108,12 @@
   transition-timing-function: ease-out;
   transition-delay: 50ms;
   color: #ff9278;
-  font-weight: bold;
   background-color: transparent;  
+  border: 3px solid #ff9278;
   
   .learn-btn-icon {
-    animation: arrowAnim .5s ease-in 1 forwards;
+    animation: arrowAnim 0.5s ease-out 1 forwards;
+    animation-delay: 0.25s;
   }
 
 }
@@ -121,7 +122,6 @@
   
   from {
     transform: rotate(0deg);
-    z-index: 5;
   }
 
   to {
@@ -203,16 +203,16 @@
 
 @media only screen and (min-width: 768px) {
   
-    #HeroImg {
-      position: absolute;
-      margin-top: -53em;
-      width: 100vw;
-    }
-  
-    #GroupCone {
-      display: block;
-      transform: translate(0, 0);
-    }
+  #HeroImg {
+    position: absolute;
+    margin-top: -53em;
+    width: 100vw;
+  }
+
+  #GroupCone {
+    display: block;
+    transform: translate(0, 0);
+  }
 
   .hero-container {
     position: relative;
