@@ -1,35 +1,32 @@
 import React from "react";
+import ClickAwayListener from "react-click-away-listener";
 
 import './navbar.scss'
 
-const Navbar = () => {
-
-  const mobileMenu = () => {
-    const hamburger = document.getElementById("hamburger");
-    const navMenu = document.getElementById("nav-menu");
-
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-  }
+const Navbar = ({mobileMenu, handleClickAway}) => {
 
   return (
+  <ClickAwayListener onClickAway={handleClickAway}>
     <header className="header">
       <nav className="navbar">
         <a href="/#" className="nav-link nav-name">
           Dru Daniels
         </a>
-        <ul className="nav-menu" id="nav-menu">
+
+        <ul className="nav-menu" id="nav-menu" onClickAway={mobileMenu}>
             <li className="nav-item">
-                <a href="/#about" className="nav-link">About</a>
+                <a href="/#about" className="nav-link" onClick={mobileMenu}>About</a>
             </li>
             <li className="nav-item">
-                <a href="/#projects" className="nav-link">Projects</a>
+                <a href="/#projects" className="nav-link" onClick={mobileMenu}>Projects</a>
             </li>
             <li className="nav-item">
                 <a 
                   href="mailto:drudaniels@gmail.com?subject=Business%20Inquiry" 
                   target="blank" 
-                  className="button nav-link contact">
+                  className="button nav-link contact" 
+                  onClick={mobileMenu}
+                >
                     Contact
                 </a>
             </li>
@@ -39,8 +36,9 @@ const Navbar = () => {
             <span className="bar"></span>
             <span className="bar"></span>
         </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
+  </ClickAwayListener>
   );
 };
 
