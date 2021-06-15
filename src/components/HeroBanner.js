@@ -28,19 +28,16 @@ const HeroBanner = (props) => {
     tl.from( '.hero-container', { 
       duration: 2.5,
       ease: "power4. out",
-      y: -200
-      });
-          
-    tl.from('.hero-design', {
+      y: -200,
       opacity: 0, 
-      duration: 2
-    }, "+=0")
-    
-    tl.from('.stagger2', {
+      }, "+=.5");
+              
+    tl.from('.hero-contact', {
       duration: 1,
       ease: "power4. out",
       opacity: 0,
-    }, "+=1")
+    }, "+=2")
+      
   }, [])
 
   return (
@@ -57,8 +54,9 @@ const HeroBanner = (props) => {
               <span><h1 className="hero-title">Full Stack</h1></span>
             </div>
           </div>
-        <a href="/#about"className="button hero-contact stagger2">
-          Learn More <ChevronRightIcon className="learn-btn-icon" />
+        <a href="/#about"className="hero-contact">
+          Learn More 
+          <ChevronRightIcon className="learn-btn-icon" />
         </a>
       </section>
     </div>

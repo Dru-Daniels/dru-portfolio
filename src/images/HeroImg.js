@@ -440,7 +440,7 @@ function SvgComponent(props) {
             />
           </g>
           
-          <g data-name="Group Laptop">
+          <g data-name="Group Laptop" className="d3-anim1">
             <ellipse
               data-name="Ellipse 2"
               cx={518.5}
