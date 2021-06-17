@@ -1,5 +1,6 @@
 import { hot } from "react-hot-loader/root"
 import './App.scss';
+
 import Navbar from './layout/Navbar'
 import HeroBanner from './components/HeroBanner'
 import Feature from './components/Feature'
@@ -12,20 +13,24 @@ import Footer from './layout/Footer'
 
 import projectData from './constants/projectData'
 
-const mobileMenu = () => {
-  const hamburger = document.getElementById("hamburger");
-  const navMenu = document.getElementById("nav-menu");
-
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-}
-
-const handleClickAway = () => {
-  const navMenu1 = document.getElementById("nav-menu");
-  navMenu1.classList.remove("active");
-};
-
 const App = (props) => {
+    
+  const mobileMenu = () => {
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("nav-menu");
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  }
+  
+  const handleClickAway = () => {
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("nav-menu");
+    if (hamburger.classList.contains("active") && navMenu.classList.contains("active")) {
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("active");
+    }
+  };
+  
   return (
     <div className="App">
         <Navbar mobileMenu={mobileMenu} handleClickAway={handleClickAway} />
