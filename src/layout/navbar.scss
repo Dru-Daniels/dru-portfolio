@@ -2,7 +2,7 @@
   background: var(--clr-lor);
   top: 0;
   width: 100vw;
-  z-index: 1;
+  z-index: 2;
 }
 
 .navbar {
@@ -103,15 +103,15 @@
   }
 
   .nav-menu {
-      position: fixed;
-      left: -100%;
-      top: 2.8em;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      padding: 0 2rem;
-      background: #333333;
-      transition: 0.3s;
+    position: fixed;
+    left: -100%;
+    top: 2.8em;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 2rem;
+    background: #333333;
+    transition: 0.3s;
   }
 
   .nav-link, 
@@ -169,8 +169,3 @@
   }
 
 }
-
-
-
-
-
