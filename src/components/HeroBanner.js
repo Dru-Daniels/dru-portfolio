@@ -14,27 +14,27 @@ const HeroBanner = (props) => {
     gsap.from(".d3-anim", {
       stagger: .5,
       y: -1000,
-      duration: 4,
-      ease: "back. out"
+      duration: 3.5,
+      ease: "power4. in"
     }, "+=3")
     
     gsap.from(".d3-anim1", {
       stagger: .5,
       y: -1000,
-      duration: 4,
-      ease: "back. out"
+      duration: 3.5,
+      ease: "power4. in"
     }, "+=6")
 
     tl.from( '.hero-container', { 
-      duration: 2.5,
-      ease: "power4. out",
+      duration: 2,
+      ease: "power4. inOut",
       y: -200,
       opacity: 0, 
       }, "+=.5");
               
     tl.from('.hero-contact', {
-      duration: 1,
-      ease: "power4. out",
+      duration: .5,
+      ease: "power4. in",
       opacity: 0,
     }, "+=2")
       
