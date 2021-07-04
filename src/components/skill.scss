@@ -75,6 +75,65 @@
 .icon-img {
   width: 120px;
   height: auto;
+  transition: 2s ease;
+}
+
+.icon-img-tags {
+  position: absolute;
+  top: 20px;
+  left: 1px;
+  padding: .25em;
+  margin: 0;
+  opacity: 0;
+  transition: 2s ease;
+}
+
+.transition22:hover .icon-img {
+  opacity: 0;
+}
+
+.transition22:hover .icon-img-tags {
+  opacity: 1;
+}
+
+.transition22:hover .icon-img-tags1 {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 200ms;
+}
+
+.transition22:hover .icon-img-tags2 {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 400ms;
+}
+
+.transition22:hover .icon-img-tags3 {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 600ms;
+}
+
+.transition22:hover .icon-img-tags4 {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 800ms;
+}
+
+.transition22:hover .icon-img-tags5 {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 1000ms;
+}
+
+@keyframes fadeIn {
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .skill-title {
