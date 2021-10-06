@@ -3,12 +3,12 @@
 [View Me Here](https://dru-daniels.com/)
 
 ## Description: 
-A modern web developer profile to showcase latest projects, ideology, and web dev skills.
+A modern web developer profile to showcase my latest projects, ideology, and web dev skills.
 
 ## Tech:
 - Reactjs frontend
-- AWS Amplife hosting
-- GSAP Scoll Trigger
+- AWS Amplify hosting
+- GSAP Scroll Trigger
 - CSS/SCSS
 - Material UI
 
